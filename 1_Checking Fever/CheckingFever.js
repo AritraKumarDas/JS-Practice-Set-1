@@ -3,7 +3,7 @@
 
 // 1. Get user input as number in fahrenheit.Check if the user has a fever. 
 
-const tempInFahrenhite = prompt("Enter your body temperature in Fahrenhite:")
+const tempInFahrenhite = +prompt("Enter your body temperature in Fahrenhite:")
 console.log("Your Temperature: " + tempInFahrenhite + " deg Fahrenhite")
 
 if (tempInFahrenhite > 98.6) {
